@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="JSValidation.js" defer></script>
+    <title>Contact Us</title>
+  </head>
+
+  <link rel="stylesheet" href="homestyle.css">
+
+<body>
+    <div class="global_container_">
+      <header class="headerA">
+        <nav class="drop">
+            <h1 class="home white">Home >>
+              <ul>
+                <li><a class="black" href="beverages.html">Beverages</a></li>
+                <li><a class="black" href="dessert.html">Desserts</a></li>
+                <li><a class="black" href="contact.html">Contact Us</a></li>
+                <li><a class="black" href="payment.html">Payment</a></li>
+              </ul>
+            </h1>
+        </nav>
+        <img class="logo" src="images/New Project.png" alt=""> 
+        <img class="SM" src="images/Whatsapp.png" alt="">
+        <img class="SM" src="images/Facebook.png" alt="">
+        <img class="SM" src="images/Instagram.png" alt="">
+      </header>
+      <center>
+      <h1 id="stylingTitle">Contact Us</h1>
+        <div class="tab">
+          <form name='Contact Us' onSubmit="return validateForm();">
+            <table>
+              <!--Full Name -->
+              <tr>
+                <td>Full Name</td>
+                <td><input type="text" name="userTxt" size="50"></td>
+              </tr>
+              
+              <!-- Email-->
+              <tr>
+                <td>Email</td>
+                <td><input type="text" name="emailTxt" size="50"></td>
+              </tr>
+              
+              <!--Message-->
+              <tr>
+                <td>Message</td>
+                <td><textarea name="MessageTxt" size="500"></textarea></td>
+              </tr>
+              
+              <!-- Button-->
+              <tr>
+                <td></td>
+                <td>
+                  <input type="submit" value="Submit">
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+          <a class="back" href="home.html">Return Back</a>
+      </center>
+        <footer class="footerA">
+          <div class="text6">
+            <p>Free delivery fee without any minimum transaction.</p>
+          </div>
+          <div class="text7">
+            <p>Address: Jl Pegangsaan Tmr 1-A<br>Telephone: 082214782664</p>
+          </div>
+      </footer>
+
+</body>

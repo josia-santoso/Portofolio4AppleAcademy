@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Your site's title should be here</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your site's description should be here">
+    <meta name="keywords" content="Your site's keywords should be here">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="style.css"> 
+    <!--[if IE 6]>
+	<style type="text/css">
+		* html .group {
+			height: 1%;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if IE 7]>
+	<style type="text/css">
+		*:first-child+html .group {
+			min-height: 1px;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if lt IE 9]> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+  <![endif]--> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre:regular,500,600,700,800&amp;subset=latin,latin-ext,sinhala">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/match-height.js"></script> 
+    <script>
+		$(function () {
+			$('.match-height-bootstrap-row > * > *').matchHeight();
+			$('.match-height > *').matchHeight();
+		})
+	</script>
+  </head>
+  <body>
+    <div class="global_container_">
+      <header class="header">
+        <div class="row">
+          <div class="l-constrained group">
+            <p class="home">Home</p>
+            <img class="shape-5" src="images/shape_5_2.png" alt="" width="40" height="34">
+            <img class="logo" src="images/logo.jpg" alt="" width="434" height="227">
+          </div>
+	<div class="dropdown">
+ 	 <button class="dropbtn">>></button>
+  	<div class="dropdown-content">
+   	 <a href="#">Menu</a>
+<div class="dropdown">
+ 	 <button class="dropbtn">>></button>
+  	<div class="dropdown-content">
+   	 <a href="dessert.html">Dessert</a>
+  	  <a href="beverages.html">Beverages</a>
+ 	 </div>
+  	  <a href="contact.html">Contact Us</a>
+	  <a href="payment.html">Payment</a>
+ 	 </div>
+        </div>
+      </header>
+      <div class="main-content-wrapper group">
+        <div class="col-3">
+          <p class="text">Founded on 2021 by three young man from Jakarta, Caffein Line is an online cafe created for people who want to enjoys coffee, tea and desserts from their home</p>
+          <div class="row-3 match-height group">
+            <div class="col-4">
+              <img class="circle-kiri" src="images/circle_kiri.png" alt="">
+              <p class="beverages">Beverages</p>
+            </div>
+            <div class="col-5">
+              <img class="circle-tengah" src="images/circle_tengah.png" alt="">
+              <p class="desserts">Desserts</p>
+            </div>
+          </div>
+          <p class="text-2">Why us?</p>
+          <p class="text-3">We provide the best quality of ingredients and make sure everything is kept well and fresh.</p>
+        </div>
+        <div class="col">
+          <p class="text-4">Promo &amp; News</p>
+          <img class="shape-5-2" src="images/shape_5.png" alt="">
+          <p class="text-5">New Ice Coffee Mocha and Cheesecake</p>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="row-2">
+          <div class="l-constrained-2 group">
+            <p class="text-6">Free delivery fee without any minimum transaction.</p>
+            <p class="text-7">Address: Jl Pegangsaan Tmr 1-A<br>Telephone: 082214782664</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

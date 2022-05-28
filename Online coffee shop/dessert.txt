@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Your site's title should be here</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Your site's description should be here">
+    <meta name="keywords" content="Your site's keywords should be here">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="style.css"> 
+    <!--[if IE 6]>
+	<style type="text/css">
+		* html .group {
+			height: 1%;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if IE 7]>
+	<style type="text/css">
+		*:first-child+html .group {
+			min-height: 1px;
+		}
+	</style>
+  <![endif]--> 
+    <!--[if lt IE 9]> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script> 
+  <![endif]--> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre:regular,500,600,700,800&amp;subset=latin,latin-ext,sinhala">
+  </head>
+  <body>
+    <div class="global_container_">
+      <header class="header">
+        <div class="row-2">
+          <div class="l-constrained-2 group">
+            <p class="beverages">Desserts</p>
+		<div class="dropdown">
+<button class="dropbtn">>></button>
+<div class="dropdown-content">
+  <a href="home.html">Home</a>
+  <a href="beverages.html">Beverages</a>
+  <a href="contact.html">Contact Us</a>
+  <a href="payment.html">Payment</a>
+            <img class="shape-5" src="images/shape_5.png" alt="" width="35" height="29">
+            <img class="logo" src="images/logo.png" alt="" width="362" height="190">
+            <img class="instagram" src="images/instagram.png" alt="" width="50" height="51">
+            <img class="facebook" src="images/facebook.png" alt="" width="51" height="53">
+            <img class="whatsapp" src="images/whatsapp.png" alt="" width="51" height="52">
+          </div>
+        </div>
+      </header>
+      <div class="main-content-wrapper group">
+        <div class="col">
+          <p class="dessert">DESSERT</p>
+          <div class="row-4 group">
+            <img class="circle-1" src="images/circle_1.png" alt="">
+            <p class="text">Black Forest</p>
+          </div>
+          <div class="row-5 group">
+            <img class="circle-3" src="images/circle_3.png" alt="">
+            <p class="text-2">Rainbow Cake</p>
+          </div>
+        </div>
+        <img class="circle-2" src="images/circle_2.png" alt="">
+        <p class="text-3">Matcha Tiramisu</p>
+      </div>
+      <footer class="footer">
+        <div class="row">
+          <div class="l-constrained group">
+            <p class="text-4">Free delivery fee without any minimum transaction.</p>
+            <p class="text-5">Address: Jl Pegangsaan Tmr 1-A<br>Telephone: 082214782664</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
