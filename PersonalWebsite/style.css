@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nameNav{
+    float: left;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 35px;
+    margin-left: 50px;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover{
+    font-size: 19px;
+    transition: all ease-in-out 200ms;
+}
+
+nav a::content{
+    color: black;
+}
+
+.profilePicture img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.profilePicture {
+    border-color: white;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 10px;
+    height: 325px;
+    width: 325px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #ccc;
+    margin-right: 30px;
+  }
+
+.content{
+    padding: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1{
+    width: 50%;
+}
+
+.cRole{
+    color: gray;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.cName{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+}
+
+.cAbout{
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.sjpg{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ff{
+    font-size: 12px;
+    color: gray;
+    font-weight: 50;
+    text-align: center;
+    padding: 0;
+    margin-bottom:5px;
+}
+
+.sjpg img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
